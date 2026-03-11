@@ -1,0 +1,11 @@
+__pycache__
+data
+log
+plots
+wandb
+models
+tmp
+
+.*
+!/.gitignore
+!/.gitattributes
