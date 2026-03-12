@@ -27,6 +27,22 @@ Happy coding, and thank you for citing responsibly! 😊
 This tutorial is uploaded to Zenodo.
 Please use the following DOI when citing this code:
 
+```bibtex
+@software{santamaria_garcia_2026_18982468,
+  author       = {Santamaria Garcia, Andrea and
+                  Wulff, Joel and
+                  Pollard, Amelia and
+                  Kaiser, Jan and
+                  Xu, Chenran},
+  title        = {RL4AA'26 CLARA Challenge},
+  month        = mar,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.1},
+  doi          = {10.5281/zenodo.18982468},
+  url          = {https://doi.org/10.5281/zenodo.18982468},
+}
+```
 
 ## Folder Structure
 <p> This repository contains all the necessary code and configurations for running experiments using reinforcement learning (RL) for the CLARA transverse tuning task. Below is an overview of the directories to help you navigate the code contents:</p>
