@@ -1,31 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
-authors:
-- affiliation: University of Liverpool and Cockcroft Institute
-  family-names: Santamaria Garcia
-  given-names: Andrea
-  orcid: "https://orcid.org/0000-0002-7498-7640"
-- affiliation: European Organisation for Nuclear Research CERN
-  family-names: Wulff
-  given-names: Joel
-  orcid: "https://orcid.org/0000-0002-0498-9798"
-- affiliation: Science and Technology Facilities Council STFC
-  family-names: Pollard
-  given-names: Amelia
-  orcid: "https://orcid.org/0000-0001-8452-2989"
-- affiliation: Deutsches Elektronen-Synchrotron DESY
-  family-names: Kaiser
-  given-names: Jan
-  orcid: "https://orcid.org/0000-0003-3445-0678"
-- affiliation: Argonne National Laboratory ANL
-  family-names: Xu
-  given-names: Chenran
-  orcid: "https://orcid.org/0000-0002-5034-2207"
-keywords:
-- Reinforcement learning
-- Particle Accelerators
-license:
-- "GPL-3.0-only"
 title: "RL4AA'26 CLARA Challenge"
 type: software
 date-released: 2026-03-12
+authors:
+- family-names: Santamaria Garcia
+  given-names: Andrea
+- family-names: Wulff
+  given-names: Joel
+- family-names: Pollard
+  given-names: Amelia
+- family-names: Kaiser
+  given-names: Jan
+- family-names: Xu
+  given-names: Chenran
+license: "GPL-3.0-only"
+
