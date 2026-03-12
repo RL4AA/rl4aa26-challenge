@@ -24,7 +24,7 @@ By using this repository, you acknowledge and respect the effort behind it. We a
 Happy coding, and thank you for citing responsibly! 😊
 
 ## Citing the materials
-This tutorial is uploaded to Zenodo.
+This tutorial is uploaded to [Zenodo](https://zenodo.org/records/18982468).
 Please use the following DOI when citing this code:
 
 ```bibtex
