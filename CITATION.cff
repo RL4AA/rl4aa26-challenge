@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: RL4AA'26 CLARA Challenge
+title: "RL4AA'26 CLARA Challenge"
 authors:
 - affiliation: University of Liverpool and Cockcroft Institute
   family-names: Santamaria Garcia
@@ -21,6 +21,7 @@ authors:
   family-names: Xu
   given-names: Chenran
   orcid: 0000-0002-5034-2207
+keywords:
 - Reinforcement learning
 - Particle Accelerators
 license:
