@@ -1,38 +1,39 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+abstract: <p>Release for the RL coding challenge for the RL4AA'26 workshop at Liverpool</p>
 authors:
-  - family-names: Kaiser
-    given-names: Jan
-    affiliation: Deutsches Elektronen-Synchrotron DESY
-    orcid: "https://orcid.org/0000-0003-3445-0678"
-  - family-names: Xu
-    given-names: Chenran
-    affiliation: Karlsruhe Institute of Technology
-    orcid: "https://orcid.org/0000-0002-5034-2207"
-  - family-names: Hespe
-    given-names: Christian
-    affiliation: Deutsches Elektronen-Synchrotron DESY
-    orcid: "https://orcid.org/0000-0001-5772-9044"
-  - family-names: Contreras Campana
-    given-names: Christian
-    affiliation: Deutsches Elektronen-Synchrotron DESY
-  - family-names: Hirlaender
-    given-names: Simon
-    affiliation: University of Salzburg
-    orcid: "https://orcid.org/0000-0002-2634-3437"
-  - family-names: Santamaria Garcia
-    given-names: Andrea
-    affiliation: University of Liverpool
-    orcid: "https://orcid.org/0000-0002-7498-7640"
-  - family-names: Eichler
-    given-names: Annika
-    affiliation: Deutsches Elektronen-Synchrotron DESY
-    orcid: "https://orcid.org/0000-0003-3282-3135"
-
-title: "RL4AA'25 ARES Challenge"
-date-released: 2025-04-01
+- affiliation: University of Liverpool
+  family-names: Santamaria Garcia
+  given-names: Andrea
+  orcid: 0000-0002-7498-7640
+- family-names: Wulff
+  given-names: Joel
+  orcid: 0000-0002-0498-9798
+- affiliation: Science and Technology Facilities Council
+  family-names: Pollard
+  given-names: Amelia
+  orcid: 0000-0001-8452-2989
+- affiliation: Deutsches Elektronen-Synchrotron DESY
+  family-names: Kaiser
+  given-names: Jan
+  orcid: 0000-0003-3445-0678
+- affiliation: Karlsruhe Institute of Technology
+  family-names: Xu
+  given-names: Chenran
+  orcid: 0000-0002-5034-2207
+cff-version: 1.2.0
+date-released: '2026-03-11'
+doi: 10.5281/zenodo.18965253
+identifiers:
+- type: swh
+  value: swh:1:dir:b0810d3ca33141c6327c9dfde9ca6dc9edc9b19e;origin=https://doi.org/10.5281/zenodo.18965252;visit=swh:1:snp:92526b6caed578d5e100b96dc9cdbae61a05dce4;anchor=swh:1:rel:1aae54d3317dc6d0829d1a2d686afe7ae4163d03;path=RL4AA-rl4aa26-challenge-2deb378
+keywords:
+- euroscivoc:1587
+- Reinforcement learning
+- mesh:D010315
+- Particle Accelerators
+license:
+- gpl-3.0-only
+message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/RL4AA/rl4aa26-challenge/tree/v1.0.0
+title: RL4AA'26 CLARA Challenge
 type: software
-version: 1.0.1
-doi: 10.5281/zenodo.15120236
-license: GPL-3.0
-url: "https://github.com/rl4aa/rl4aa25-challenge"
+version: v1.0.0
