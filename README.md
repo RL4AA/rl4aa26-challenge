@@ -1,5 +1,5 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![DOI](https://zenodo.org/badge/700362904.svg)](https://zenodo.org/doi/10.5281/zenodo.18965253)
+[![DOI](https://zenodo.org/badge/18965253.svg)](https://zenodo.org/badge/latestdoi/18965253)
 
 
 # Reinforcement Learning Challenge at the RL4AA'26 Workshop
