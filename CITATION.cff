@@ -1,13 +1,15 @@
-abstract: <p>Release for the RL coding challenge for the RL4AA'26 workshop at Liverpool</p>
+cff-version: 1.2.0
+title: RL4AA'26 CLARA Challenge
 authors:
-- affiliation: University of Liverpool
+- affiliation: University of Liverpool and Cockcroft Institute
   family-names: Santamaria Garcia
   given-names: Andrea
   orcid: 0000-0002-7498-7640
-- family-names: Wulff
+- affiliation: European Organisation for Nuclear Research CERN
+  family-names: Wulff
   given-names: Joel
   orcid: 0000-0002-0498-9798
-- affiliation: Science and Technology Facilities Council
+- affiliation: Science and Technology Facilities Council STFC
   family-names: Pollard
   given-names: Amelia
   orcid: 0000-0001-8452-2989
@@ -15,25 +17,14 @@ authors:
   family-names: Kaiser
   given-names: Jan
   orcid: 0000-0003-3445-0678
-- affiliation: Karlsruhe Institute of Technology
+- affiliation: Argonne National Laboratory ANL
   family-names: Xu
   given-names: Chenran
   orcid: 0000-0002-5034-2207
-cff-version: 1.2.0
-date-released: '2026-03-11'
-doi: 10.5281/zenodo.18965253
-identifiers:
-- type: swh
-  value: swh:1:dir:b0810d3ca33141c6327c9dfde9ca6dc9edc9b19e;origin=https://doi.org/10.5281/zenodo.18965252;visit=swh:1:snp:92526b6caed578d5e100b96dc9cdbae61a05dce4;anchor=swh:1:rel:1aae54d3317dc6d0829d1a2d686afe7ae4163d03;path=RL4AA-rl4aa26-challenge-2deb378
-keywords:
-- euroscivoc:1587
 - Reinforcement learning
-- mesh:D010315
 - Particle Accelerators
 license:
 - gpl-3.0-only
 message: If you use this software, please cite it using the metadata from this file.
-repository-code: https://github.com/RL4AA/rl4aa26-challenge/tree/v1.0.0
-title: RL4AA'26 CLARA Challenge
 type: software
-version: v1.0.0
+date-released: 2026
