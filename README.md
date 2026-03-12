@@ -1,5 +1,4 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![DOI](https://zenodo.org/badge/125906995.svg)](https://zenodo.org/badge/latestdoi/125906995)
 
 
 # Reinforcement Learning Challenge at the RL4AA'26 Workshop
@@ -24,31 +23,9 @@ By using this repository, you acknowledge and respect the effort behind it. We a
 Happy coding, and thank you for citing responsibly! 😊
 
 ## Citing the materials
-This tutorial is uploaded to [Zenodo](https://doi.org/10.5281/zenodo.18965253).
+This tutorial is uploaded to Zenodo.
 Please use the following DOI when citing this code:
 
-```bibtex
-@software{santamaria_garcia_2026_18965253,
-  author       = {Santamaria Garcia, Andrea and
-                  Wulff, Joel and
-                  Pollard, Amelia and
-                  Kaiser, Jan and
-                  Xu, Chenran},
-  title        = {RL4AA'26 CLARA Challenge},
-  month        = mar,
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.18965253},
-  url          = {https://doi.org/10.5281/zenodo.18965253},
-  swhid        = {swh:1:dir:b0810d3ca33141c6327c9dfde9ca6dc9edc9b19e
-                   ;origin=https://doi.org/10.5281/zenodo.18965252;vi
-                   sit=swh:1:snp:92526b6caed578d5e100b96dc9cdbae61a05
-                   dce4;anchor=swh:1:rel:1aae54d3317dc6d0829d1a2d686a
-                   fe7ae4163d03;path=RL4AA-rl4aa26-challenge-2deb378
-                  },
-}
-```
 
 ## Folder Structure
 <p> This repository contains all the necessary code and configurations for running experiments using reinforcement learning (RL) for the CLARA transverse tuning task. Below is an overview of the directories to help you navigate the code contents:</p>
