@@ -18,6 +18,7 @@ def evaluate_on_trial(
     model: BaseAlgorithm,
     config: dict,
     write_data: bool = True,
+    data_dir: str | None = None,
 ) -> None:
     """
     Evaluate a policy on a single trial.
@@ -27,9 +28,13 @@ def evaluate_on_trial(
     :param model: The policy model to evaluate.
     :param config: The configuration dictionary used when training the policy.
     :param write_data: Whether to write the episode data to disk.
+    :param data_dir: Base directory for saving episode data. Defaults to
+        ``data/{run_name}`` when *None*.
     """
 
     policy_name = config["run_name"]
+    if data_dir is None:
+        data_dir = f"data/{policy_name}"
 
     # Create the environment
     env = clara.TransverseTuning(
@@ -54,7 +59,7 @@ def evaluate_on_trial(
     if write_data:
         env = RecordEpisode(
             env,
-            save_dir=(f"data/{policy_name}/problem_{trial_index:03d}"),
+            save_dir=(f"{data_dir}/problem_{trial_index:03d}"),
         )
     if config["normalize_observation"]:
         env = RescaleObservation(env, -1, 1)
@@ -175,7 +180,11 @@ def generate_trials(num: int, seed: int | None = None) -> list[Trial]:
 
 
 def evaluate_policy(
-    model: BaseAlgorithm, config: dict, write_data: bool = True, seed: int | None = None
+    model: BaseAlgorithm,
+    config: dict,
+    write_data: bool = True,
+    seed: int | None = None,
+    data_dir: str | None = None,
 ) -> None:
     """
     Evaluate a policy on a set of trials (different incoming beams, quadrupole
@@ -185,12 +194,14 @@ def evaluate_policy(
     :param config: The configuration dictionary used when training the policy.
     :param write_data: Whether to write the episode data to disk.
     :param seed: The seed to use for generating the trials.
+    :param data_dir: Base directory for saving episode data. Defaults to
+        ``data/{run_name}`` when *None*.
     """
 
     trials = generate_trials(num=20, seed=seed)
 
     for i, trial in enumerate(trials):
-        evaluate_on_trial(i, trial, model, config, write_data)
+        evaluate_on_trial(i, trial, model, config, write_data, data_dir=data_dir)
 
 
 def main():
