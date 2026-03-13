@@ -1157,7 +1157,7 @@ class Episode:
         allow_lowest_as_target: bool = False,
     ) -> int:
         """
-        Find the number of steps until the maes in `episdoe` drop below `threshold`. If
+        Find the number of steps until the maes in `episode` drop below `threshold`. If
         `allow_lowest_as_target` is `True` and the threshold was never reached, the
         number of steps until the lowest MAE is returned, otherwise return the number of
         total steps in the episode.

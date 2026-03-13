@@ -139,10 +139,10 @@ class LogTaskStatistics(gym.Wrapper):
                 f"{self.prefix}/final_mae": episode.final_mae(),
                 f"{self.prefix}/rmse": episode.rmse(),
                 f"{self.prefix}/steps_to_convergence": episode.steps_to_convergence(
-                    threshold=4e-5, use_min_mae=False
+                    threshold=1e-4, use_min_mae=False
                 ),
                 f"{self.prefix}/steps_to_threshold": episode.steps_to_threshold(
-                    threshold=4e-5, use_min_mae=False
+                    threshold=1e-4, use_min_mae=False
                 ),
                 f"{self.prefix}/beam_reward": beam_reward,
                 f"{self.prefix}/on_screen_reward": on_screen_reward,
