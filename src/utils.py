@@ -391,6 +391,44 @@ class SLURMRescheduleCallback(BaseCallback):
             return True
 
 
+def log_challenge_results(
+    study_best: Any,
+    study_final: Any,
+    num_episode_plots: int = 3,
+) -> tuple[float, str]:
+    """
+    Evaluate both studies, log scores and episode summary plots to the active
+    wandb run, and return the challenge score and which model was best.
+
+    :param study_best: Study from the best-evaluated model checkpoint.
+    :param study_final: Study from the final model checkpoint.
+    :param num_episode_plots: Number of episode summaries to log as images.
+    :return: Tuple of (challenge_score, best_model_is, best_eval_model_score,
+        final_model_score) where best_model_is is ``"best_evaluated"`` or
+        ``"final"``.
+    """
+    print("Calculating score for best model from EvalCallback...")
+    best_eval_model_score = study_best.evaluate_challenge()
+    print("-----------------------------------------------------")
+    print("Calculating score for best model from EvalCallback...")
+    final_model_score = study_final.evaluate_challenge()
+    challenge_score = min(best_eval_model_score, final_model_score)
+
+    best_model_is = (
+        "best_evaluated" if best_eval_model_score <= final_model_score else "final"
+    )
+
+    wandb.run.log(
+        {
+            "best_eval_model_score": best_eval_model_score,
+            "final_model_score": final_model_score,
+            "challenge_score": challenge_score,
+        }
+    )
+
+    return challenge_score, best_model_is, best_eval_model_score, final_model_score
+
+
 def deep_equal(obj1: Any, obj2: Any) -> bool:
     """Recursively checks if two objects are equal."""
     if type(obj1) is not type(obj2):
