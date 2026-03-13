@@ -410,7 +410,7 @@ def log_challenge_results(
     print("Calculating score for best model from EvalCallback...")
     best_eval_model_score = study_best.evaluate_challenge()
     print("-----------------------------------------------------")
-    print("Calculating score for best model from EvalCallback...")
+    print("Calculating score final model...")
     final_model_score = study_final.evaluate_challenge()
     challenge_score = min(best_eval_model_score, final_model_score)
 
