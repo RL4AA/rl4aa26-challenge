@@ -98,6 +98,7 @@ def train(config: dict) -> None:
         monitor_gym=True,
         config=config,
         dir=".wandb",
+        save_code=False,  # prevent uploading source code to WandB
     )
     config = dict(wandb.config)
     config["run_name"] = wandb.run.name
