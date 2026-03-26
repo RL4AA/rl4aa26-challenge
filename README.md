@@ -10,7 +10,7 @@ The workshop is going to be held from the 30th of March to the 1st of April 2026
 Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.github.io/)
 
 ## 🚨 Installation instructions 🚨
-Please check [INSTALL.md](https://github.com/RL4AA/rl4aa26-challenge-private/blob/master/INSTALL.md) and make sure you have gone through the pre-requisites before the challenge starts.
+Please check [INSTALL.md](https://github.com/RL4AA/rl4aa26-challenge/blob/master/INSTALL.md) and make sure you have gone through the pre-requisites before the challenge starts.
 
 ## Disclaimer &#x2757;
 This repository is an adapted and updated version of the RL4AA'25 challenge: [Zenodo](https://zenodo.org/doi/10.5281/zenodo.15120236). It builds on the previous work and changes the underlying accelerator simulation from the ARES-EA beam line at DESY, to the CLARA beam line at the Cockcroft Institute.
