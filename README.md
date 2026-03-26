@@ -5,6 +5,8 @@
 # Reinforcement Learning Challenge at the RL4AA'26 Workshop
 This repository contains the material for challenge of the [RL4AA'26](https://indico.ph.liv.ac.uk/event/2025/) workshop.
 
+The workshop is going to be held from the 30th of March to the 1st of April 2026 in Liverpool. The **final submission for competitors in the challenge will be on Wednesday the 1st of April, 14:15.** The teams with first and second place submissions will be asked to briefly present their results and methods to the workshop (template slides available on [indico](https://indico.ph.liv.ac.uk/event/2025/sessions/1451/#20260330)), before being awarded their prize. Only attendees of the workshop are eligible to compete.
+
 Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.github.io/)
 
 ## 🚨 Installation instructions 🚨
