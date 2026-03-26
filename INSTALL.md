@@ -1,5 +1,7 @@
 # To do before the workshop 📋
 
+You will need 6GB of free space in your laptop to run this challenge.
+
 ## Create an account in Weights and Biases
 We will use Weights and Biases as leaderboard. You will be able to see your runs and final score with respect to the other participants.
 
